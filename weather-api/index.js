@@ -3,7 +3,7 @@ const cors = require('cors');
 const axios = require('axios');
 
 const corsOptions = {
-  origin: 'http://localhost:3000',
+  origin: 'https://sohit-weather-app.netlify.app/',
 };
 
 const app = express();
