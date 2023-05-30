@@ -19,7 +19,7 @@
     "eject": "react-scripts eject",
     "frontend": "npm start",
     "backend":"cd weather-api && node index.js",
-    "dev": "concurrently \" npm run frontend\" \"npm run backend\""
+    "star": "concurrently \" npm run frontend\" \"npm run backend\""
   },
   "eslintConfig": {
     "extends": [
