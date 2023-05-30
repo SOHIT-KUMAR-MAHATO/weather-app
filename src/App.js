@@ -41,7 +41,7 @@ function App() {
         <img class="card-img-top" src="https://i1.wp.com/www.differencebetween.com/wp-content/uploads/2011/11/Partly-Cloudy_Difference-Between-Partly-Cloudy-and-Mostly-Sunny.png" alt="Weather"/>
         <div class="card-body">
         <h2 class="card-title"> {capitalizeFirstLetter(location)}</h2>
-          <h3 class="card-text">Temperature: {weatherData.temperature} °C</h3>
+          <h3 class="card-text">Temperature: {weatherData.temperature}°C</h3>
           <h3 class="card-text">Humidity: {weatherData.humidity}%</h3>
         </div>
         </div>
