@@ -6,7 +6,7 @@ function App() {
 
   const handleSearch = async () => {
     try {
-      const response = await fetch(`https://sohit-weather-app.netlify.app/api/weather?location=${location}`);
+      const response = await fetch(`https://sohit-weather-app.netlify.app:3001/api/weather?location=${location}`);
       const data = await response.json();
       setWeatherData(data);
     } catch (error) {
