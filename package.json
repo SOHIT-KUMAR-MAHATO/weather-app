@@ -16,10 +16,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "frontend": "npm start",
-    "backend":"cd weather-api && node index.js",
-    "star": "concurrently \" npm run frontend\" \"npm run backend\""
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
